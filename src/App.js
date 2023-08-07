@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from 'react';
+import Toolbar from './Component/Toolbar/toolbar.component';
+import Barchart from './Component/Barchart/barchart.component';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Toolbar />
+      <Barchart />
+    </Fragment>
   );
-}
+};
 
 export default App;

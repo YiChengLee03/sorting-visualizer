@@ -1,0 +1,17 @@
+.array-container {
+  display: flex;
+  position: relative;
+  width: 95%;
+  height: 700px;
+  margin: 15px auto 20px auto;
+  justify-content: center;
+  align-items: end;
+}
+
+.array-bar {
+  width: 20px;
+  background-color: navy;
+  display: inline-block;
+  margin: 0 1px;
+  bottom: 0px;
+}
