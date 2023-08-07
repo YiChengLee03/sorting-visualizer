@@ -62,8 +62,6 @@ const Sort = () => {
         animations = quickSort(array);
         animateWithSwap(animations);
         break;
-      case ALGO_TYPES.RADIX:
-        break;
       case ALGO_TYPES.SELECTION:
         animations = selectionSort(array);
         animateWithSwap(animations);

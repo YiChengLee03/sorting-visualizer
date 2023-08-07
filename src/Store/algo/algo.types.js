@@ -9,6 +9,5 @@ export const ALGO_TYPES = {
   INSERTION: 'Insertion Sort',
   MERGE: 'Merge Sort',
   QUICK: 'Quick Sort',
-  RADIX: 'Radix Sort',
   SELECTION: 'Selection Sort',
 };
