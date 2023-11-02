@@ -14,7 +14,7 @@ const quickSortHelper = (array, startIdx, endIdx, animations) => {
 };
 
 const partition = (array, startIdx, endIdx, animations) => {
-  const pivot = array[(startIdx + endIdx) / 2];
+  const pivot = array[endIdx];
   let i = startIdx - 1;
 
   for (let j = startIdx; j <= endIdx; j++) {
@@ -23,7 +23,7 @@ const partition = (array, startIdx, endIdx, animations) => {
       swap: false,
     });
 
-    if (array[j] <= pivot) {
+    if (array[j] < pivot) {
       i++;
       swap(array, i, j, animations);
     }
