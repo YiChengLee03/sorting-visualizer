@@ -47,7 +47,6 @@ const Sort = () => {
         break;
       case ALGO_TYPES.HEAP:
         animations = heapSort(array);
-        // console.log(animations);
         animateWithSwap(animations);
         break;
       case ALGO_TYPES.INSERTION:
