@@ -23,7 +23,7 @@ const partition = (array, startIdx, endIdx, animations) => {
       swap: false,
     });
 
-    if (array[j] < pivot) {
+    if (array[j] <= pivot) {
       i++;
       swap(array, i, j, animations);
     }
