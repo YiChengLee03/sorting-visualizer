@@ -26,13 +26,13 @@ const Sort = () => {
   let speed;
   switch (speedSelected) {
     case ALGO_SPEED.FAST:
-      speed = 3;
-      break;
-    case ALGO_SPEED.MEDIUM:
       speed = 10;
       break;
+    case ALGO_SPEED.MEDIUM:
+      speed = 50;
+      break;
     case ALGO_SPEED.SLOW:
-      speed = 30;
+      speed = 100;
       break;
     default:
       speed = 10;
